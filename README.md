@@ -6,9 +6,13 @@ Also i will be using some other libraries for styling, UI component and animatio
 
 ## What i have archieved for the test
 Build a perfect-pixel UI
+
 Added keyboard controls (Tab key)
+
 Page transition overlay with framer motion
+
 Search function with debounce input and errors handling
+
 
 ## Installation 
 
