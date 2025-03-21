@@ -22,12 +22,7 @@ const SearchBox: React.FC = () => {
 
   const [data, setData] = useState<Technology[]>([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState("")
-  // const { data, isLoading, error } = useQuery({
-  //   queryKey: ['technologies', query],
-  //   queryFn: ({ queryKey }) => getTechnologies({ search: queryKey[1] || undefined, "no-throttling": false }),
-  //   staleTime: Infinity,
-  // });
+  const [error, setError] = useState("");
 
   useEffect(() => {
     setIsLoading(true);

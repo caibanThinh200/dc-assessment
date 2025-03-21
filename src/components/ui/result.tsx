@@ -24,12 +24,12 @@ const ResultCard: React.FC<ResultCardProps> = ({ technology }) => {
               <p className="text-xl">{technology.title}</p>
               <p className="text-grey line-clamp-1">{technology.description}</p>
             </div>
-            <div className="block lg:hidden opacity-0 group-hover:opacity-1">
+            <div className="block lg:hidden opacity-0 group-hover:opacity-100 transition-[opacity] duration-300">
               <RedirectIcon />
             </div>
           </div>
         </div>
-        <div className="hidden lg:block opacity-0 group-hover:opacity-1">
+        <div className="hidden lg:block opacity-0 group-hover:opacity-100 transition-[opacity] duration-300">
           <RedirectIcon />
         </div>
       </div>
