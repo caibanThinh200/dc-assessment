@@ -1,5 +1,4 @@
 import SearchBox from "@/components/blocks/SearchBox";
-import Image from "next/image";
 
 export default function Home() {
   return (

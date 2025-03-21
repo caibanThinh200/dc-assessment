@@ -1,5 +1,4 @@
 import { motion } from "motion/react"
-import LoadingSpinner from "./loading"
 import { LoadingIcon } from "./icons"
 
 const LoadingOverlay = () => {

@@ -5,22 +5,17 @@ import { Input } from "../ui/input";
 import { SearchIcon } from "../ui/icons";
 import Tag from "../ui/tag";
 import ResultCard from "../ui/result";
-import { useQuery } from "@tanstack/react-query";
 import { getTechnologies } from "@/api/technologies"
-import ReactLoading from 'react-loading';
 import LoadingSpinner from "../ui/loading";
 import Empty from "../ui/empty";
 import { debounce } from "@/lib/utils";
 import { Technology } from "@/types/technologies";
 import { motion } from "motion/react"
-import AnimateHeight from 'react-animate-height';
 import { AxiosError } from "axios";
-
-interface SearchBoxProps { }
 
 const TAG_DATA = ["Languages", "Build", "Design", "Cloud"];
 
-const SearchBox: React.FC<SearchBoxProps> = ({ }) => {
+const SearchBox: React.FC = () => {
   const [query, setQuery] = useState("");
   const [input, setInput] = useState("");
   const [selectTag, setSelectedTag] = useState("");

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Layout from "@/components/layout";
 
 const poppins = Poppins({
